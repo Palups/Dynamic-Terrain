@@ -72,7 +72,7 @@ public class TerrainLoader implements Scene{
                 1000.0f //specular power
         );
         if(!wireFrame)
-            material.setTexture("uTexture", new Texture(PATH + "snow.png"));
+            material.setTexture("uTexture", new Texture(PATH + "bricks_t.jpg"));
     }
 
     @Override
