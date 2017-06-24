@@ -10,10 +10,10 @@ import java.io.IOException;
 
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
-
-
+/**
+ * Created by Palups on 21/06/2017.
+ */
 /*W e S zoom da camera */
-
 public class TerrainLoader implements Scene{
     private Keyboard keys = Keyboard.getInstance();
 
